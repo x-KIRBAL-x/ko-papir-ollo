@@ -60,15 +60,15 @@ if (ellenfel == 1){
 function kokatt() {
     ellenfel =  Math.floor(Math.random()*3)+1;
     if (ellenfel == 1){
-        eredmeny.innerHTML = "Döntetlen!";
+        eredmeny.innerHTML = "Döntetlen";
         dontetlen++;
         dontet.innerHTML = dontetlen;     
     } else if(ellenfel == 2){
-        eredmeny.innerHTML = "Vesztettél!";
+        eredmeny.innerHTML = "Vesztettél";
         vesztes++;
         veszt.innerHTML = vesztes;
     } else if (ellenfel == 3){
-       eredmeny.innerHTML = "Nyertél!";
+       eredmeny.innerHTML = "Nyertél";
        nyeres++;
        nyertel.innerHTML = nyeres;
     }
@@ -77,15 +77,15 @@ function kokatt() {
 function papirkatt() {
     ellenfel =  Math.floor(Math.random()*3)+1;
     if (ellenfel == 2){
-        eredmeny.innerHTML = "Döntetlen!"; 
+        eredmeny.innerHTML = "Döntetlen"; 
         dontetlen++;   
         dontet.innerHTML = dontetlen; 
     } else if(ellenfel == 3){
-        eredmeny.innerHTML = "Vesztettél!";
+        eredmeny.innerHTML = "Vesztettél";
         vesztes++;
         veszt.innerHTML = vesztes;
     } else if(ellenfel == 1){
-      eredmeny.innerHTML = "Nyertél!";
+      eredmeny.innerHTML = "Nyertél";
       nyeres++;
       nyertel.innerHTML = nyeres;
     }  
@@ -94,15 +94,15 @@ function papirkatt() {
 function ollokatt() {
     ellenfel =  Math.floor(Math.random()*3)+1;
     if (ellenfel == 3){
-        eredmeny.innerHTML = "Döntetlen!"; 
+        eredmeny.innerHTML = "Döntetlen"; 
         dontetlen++;   
         dontet.innerHTML = dontetlen; 
     } else if(ellenfel == 1){
-        eredmeny.innerHTML = "Vesztettél!";
+        eredmeny.innerHTML = "Vesztettél";
         vesztes++;
         veszt.innerHTML = vesztes;
     } else if(ellenfel == 2){
-        eredmeny.innerHTML = "Nyertél!";
+        eredmeny.innerHTML = "Nyertél";
         nyeres++;
         nyertel.innerHTML = nyeres;
     }
