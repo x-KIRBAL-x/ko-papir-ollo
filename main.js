@@ -64,7 +64,7 @@ function kokatt() {
         dontetlen++;
         dontet.innerHTML = dontetlen;     
     } else if(ellenfel == 2){
-        eredmeny.innerHTML = "Vesztetél";
+        eredmeny.innerHTML = "Vesztettél";
         vesztes++;
         veszt.innerHTML = vesztes;
     } else if (ellenfel == 3){
@@ -81,7 +81,7 @@ function papirkatt() {
         dontetlen++;   
         dontet.innerHTML = dontetlen; 
     } else if(ellenfel == 3){
-        eredmeny.innerHTML = "Vesztetél";
+        eredmeny.innerHTML = "Vesztettél";
         vesztes++;
         veszt.innerHTML = vesztes;
     } else if(ellenfel == 1){
@@ -98,7 +98,7 @@ function ollokatt() {
         dontetlen++;   
         dontet.innerHTML = dontetlen; 
     } else if(ellenfel == 1){
-        eredmeny.innerHTML = "Vesztetél";
+        eredmeny.innerHTML = "Vesztettél";
         vesztes++;
         veszt.innerHTML = vesztes;
     } else if(ellenfel == 2){
