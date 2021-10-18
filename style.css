@@ -64,13 +64,14 @@ label.szöveg{
     height: 0px;
 }
 .gombok{
-    width: 720;
+    width: 720px;
     margin-top: 4px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
 }
 button.gombok{
+    width: 200px;
     font-family: cursive;
     font-size: 24px;
     border: 4px solid black;
