@@ -22,7 +22,6 @@ label.allas{
     font-size: 24px;
 }
 .kezek{
-    /*border: 2px solid black;*/
     margin-left: auto;
     margin-right: auto;
     width: 720px;
@@ -65,7 +64,7 @@ label.szöveg{
     height: 0px;
 }
 .gombok{
-    width:  fit-content;
+    width: fit-content;
     margin-top: 4px;
     margin-left: auto;
     margin-right: auto;
